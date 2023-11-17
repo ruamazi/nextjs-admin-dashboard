@@ -1,0 +1,60 @@
+.rightbar {
+}
+.item {
+  position: relative;
+  background: linear-gradient(
+    to top,
+    var(--color-ref-primary25),
+    var(--color-ref-secondary20)
+  );
+  padding: 20px 10px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.bgCont {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 50%;
+  height: 50%;
+}
+.bgCont img {
+  object-fit: contain;
+  opacity: 0.2;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  z-index: 1;
+}
+.notif {
+  font-weight: 500;
+  font-size: 0.75rem;
+  color: var(--color-ref-secondary80);
+}
+.desc {
+  font-size: 0.85rem;
+}
+.btn {
+  font-weight: bold;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: var(--color-ref-primary60);
+  border: none;
+  z-index: 1;
+  border-radius: 5px;
+  cursor: pointer;
+  width: max-content;
+  transition: filter 0.2s ease-in-out;
+}
+.btn:hover {
+  filter: brightness(130%);
+}
+@media (max-width: 980px) {
+  /* .rightbar {
+    display: none;
+  } */
+}

@@ -1,0 +1,11 @@
+.container {
+  background-color: var(--color-ref-secondary20);
+  border-radius: 10px;
+  padding: 20px;
+  height: 300px;
+}
+.title {
+  margin-bottom: 20px;
+  font-weight: 200;
+  color: var(--color-ref-secondary90);
+}

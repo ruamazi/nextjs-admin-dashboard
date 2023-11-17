@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: var(--color-ref-secondary15);
+  padding: 10px;
+  border-radius: 10px;
+  width: max-content;
+}
+.input {
+  background-color: transparent;
+  border: none;
+  color: var(--color-ref-secondary90);
+  outline: none;
+  padding: 3px 0;
+}
+.input::placeholder {
+  color: var(--color-ref-secondary70);
+}

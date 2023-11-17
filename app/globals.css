@@ -1,0 +1,74 @@
+:root {
+  --color-ref-primary0: #000000ff;
+  --color-ref-primary10: #3a0328ff;
+  --color-ref-primary20: #551a3eff;
+  --color-ref-primary25: #622549ff;
+  --color-ref-primary30: #703055ff;
+  --color-ref-primary40: #8c486dff;
+  --color-ref-primary50: #a86087ff;
+  --color-ref-primary60: #c579a1ff;
+  --color-ref-primary70: #e393bcff;
+  --color-ref-primary80: #ffafd7ff;
+  --color-ref-primary90: #ffd8e9ff;
+  --color-ref-primary95: #ffecf2ff;
+  --color-ref-primary99: #fffbffff;
+  --color-ref-primary100: #ffffffff;
+  --color-ref-secondary0: #000000ff;
+  --color-ref-secondary10: #291520ff;
+  --color-ref-secondary12: #2e1924ff;
+  --color-ref-secondary15: #351f2aff;
+  --color-ref-secondary20: #402a35ff;
+  --color-ref-secondary25: #4c3540ff;
+  --color-ref-secondary30: #58404cff;
+  --color-ref-secondary35: #654b57ff;
+  --color-ref-secondary40: #725763ff;
+  --color-ref-secondary50: #8c6f7cff;
+  --color-ref-secondary60: #a78896ff;
+  --color-ref-secondary70: #c3a3b1ff;
+  --color-ref-secondary80: #dfbdccff;
+  --color-ref-secondary90: #fdd9e8ff;
+  --color-ref-secondary95: #ffecf2ff;
+  --color-ref-secondary99: #fffbffff;
+  --color-ref-secondary100: #ffffffff;
+  --color-ref-tertiary0: #000000ff;
+  --color-ref-tertiary10: #311302ff;
+  --color-ref-tertiary20: #4a2811ff;
+  --color-ref-tertiary30: #643d25ff;
+  --color-ref-tertiary40: #7f543bff;
+  --color-ref-tertiary50: #9b6d51ff;
+  --color-ref-tertiary60: #b88669ff;
+  --color-ref-tertiary70: #d5a081ff;
+  --color-ref-tertiary80: #f3ba9bff;
+  --color-ref-tertiary90: #ffdbc9ff;
+  --color-ref-tertiary95: #ffede5ff;
+  --color-ref-tertiary99: #fffbffff;
+  --color-ref-tertiary100: #ffffffff;
+  --color-ref-error0: #000000ff;
+  --color-ref-error10: #410002ff;
+  --color-ref-error20: #690005ff;
+  --color-ref-error30: #93000aff;
+  --color-ref-error40: #ba1a1aff;
+  --color-ref-error50: #de3730ff;
+
+  --color-positive: #7fffd4;
+  --color-negative: #ff7f7f;
+  --color-view: teal;
+  --color-pending: rgba(32, 126, 133, 0.5);
+  --color-done: rgb(32, 133, 78, 0.5);
+  --color-cancelled: rgb(100, 100, 100);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: inherit;
+}
+body {
+  background-color: var(--color-ref-secondary10);
+  color: var(--color-ref-primary100);
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}

@@ -1,0 +1,32 @@
+.container {
+  background-color: var(--color-ref-secondary20);
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 100%;
+}
+.container:hover {
+  background-color: var(--color-ref-secondary30);
+}
+.text {
+  display: flex;
+  flex-direction: column;
+}
+.title {
+}
+.number {
+  font-size: 2rem;
+  font-weight: 500;
+}
+.detail {
+  font-size: 0.8rem;
+  font-weight: 300;
+}
+.positive {
+  color: var(--color-positive);
+}
+.negative {
+  color: var(--color-negative);
+}

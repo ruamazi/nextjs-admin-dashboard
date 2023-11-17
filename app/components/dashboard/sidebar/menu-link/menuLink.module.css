@@ -1,0 +1,15 @@
+.container {
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 5px 0;
+}
+.container:hover {
+  background-color: var(--color-ref-primary10);
+}
+.active {
+  background-color: var(--color-ref-primary30);
+  border-right: 5px solid var(--color-ref-tertiary80);
+  color: var(--color-ref-primary80);
+}

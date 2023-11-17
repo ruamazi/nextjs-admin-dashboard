@@ -1,0 +1,41 @@
+.container {
+  background-color: var(--color-ref-secondary20);
+  border-radius: 10px;
+  padding: 20px;
+}
+.title {
+  margin-bottom: 20px;
+  font-weight: 200;
+  color: var(--color-ref-secondary90);
+}
+.table {
+  width: 100%;
+}
+.table td {
+  padding: 10px;
+}
+.user {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.userImg {
+  border-radius: 50%;
+  object-fit: cover;
+}
+.status {
+  border-radius: 3px;
+  padding: 5px;
+  font-size: 0.85rem;
+  color: var(--color-ref-secondary100);
+}
+.pending {
+  background-color: var(--color-pending);
+}
+.done {
+  background-color: var(--color-done);
+}
+.cancelled {
+  background-color: var(--color-cancelled);
+  opacity: 0.5;
+}
