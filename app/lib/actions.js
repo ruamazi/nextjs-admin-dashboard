@@ -152,9 +152,9 @@ export const loginUser = async (formData) => {
   const { username, password } = Object.fromEntries(formData);
   try {
     await signIn("credentials", { username, password });
+    redirect("/dashboard");
   } catch (error) {
     console.log(error);
-    // return "Wrong credentials!";
-    throw "Wrong credentials!";
+    redirect("/dashboard");
   }
 };
