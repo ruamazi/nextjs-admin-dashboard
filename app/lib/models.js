@@ -34,7 +34,7 @@ const userSchema = mongoose.Schema(
       type: String,
     },
   },
-  { timeStamp: true }
+  { timestamps: true }
 );
 
 const productSchema = mongoose.Schema(
@@ -68,7 +68,7 @@ const productSchema = mongoose.Schema(
       type: String,
     },
   },
-  { timeStamp: true }
+  { timestamps: true }
 );
 
 export const User = mongoose.models.User || mongoose.model("User", userSchema);

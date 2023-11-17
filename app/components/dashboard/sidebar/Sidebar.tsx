@@ -6,7 +6,7 @@ import { MdLogout } from "react-icons/md";
 import { auth, signOut } from "../../../auth";
 
 const Sidebar = async () => {
-  const { user } = await auth();
+  const { user }: any = await auth();
 
   return (
     <div className={s.container}>
